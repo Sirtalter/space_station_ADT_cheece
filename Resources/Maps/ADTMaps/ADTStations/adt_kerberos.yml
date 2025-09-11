@@ -28685,13 +28685,13 @@ entities:
       dnas: []
       fibers: []
       fingerprints: []
-- proto: ADTClothingHandsFingerlessCombat
-  entities:
-  - uid: 38950
-    components:
-    - type: Transform
-      pos: 65.63101,-5.6878343
-      parent: 2
+# - proto: ADTClothingHandsFingerlessCombat
+#   entities:
+#   - uid: 38950
+#     components:
+#     - type: Transform
+#       pos: 65.63101,-5.6878343
+#       parent: 2
 - proto: ADTClothingHeadHatBeretBlueshieldBlack
   entities:
   - uid: 57
@@ -29145,14 +29145,14 @@ entities:
       parent: 17115
     - type: Physics
       canCollide: False
-- proto: ADTFoodSnackScientistCake
-  entities:
-  - uid: 29616
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -21.322891,-27.412176
-      parent: 2
+# - proto: ADTFoodSnackScientistCake
+#   entities:
+#   - uid: 29616
+#     components:
+#     - type: Transform
+#       rot: 3.141592653589793 rad
+#       pos: -21.322891,-27.412176
+#       parent: 2
 - proto: ADTFunCardsBoxFull36
   entities:
   - uid: 15101
@@ -29615,15 +29615,15 @@ entities:
     - type: Transform
       pos: 53.5,1.5
       parent: 2
-- proto: ADTStudentBomber
-  entities:
-  - uid: 22815
-    components:
-    - type: Transform
-      parent: 22623
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
+# - proto: ADTStudentBomber
+#   entities:
+#   - uid: 22815
+#     components:
+#     - type: Transform
+#       parent: 22623
+#     - type: Physics
+#       canCollide: False
+#     - type: InsideEntityStorage
 - proto: ADTSuitStorageBlueshield
   entities:
   - uid: 68
@@ -116446,7 +116446,7 @@ entities:
           - 22707
           - 22767
           - 22793
-          - 22815
+          # - 22815
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
